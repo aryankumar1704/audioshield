@@ -47,16 +47,6 @@ Stream .wav or byte audio packets to Pico W over Wi-Fi.
 - Pico W operates as a Wi-Fi Access Point
 - Uses UDP protocol for fast low-latency transfer
 
-
-## UDP Audio Streamer
-
-Use a desktop or ESP32-based sender to transmit .wav audio packets via UDP.
-
-- Port: 4210
-- SSID: PicoReceiver
-- Password: ReceiverPass123
-- End of stream marked with "END" message
-
 ## Real-Time Plotting
 
 Use Arduino Serial Plotter to visualize filtered output:
