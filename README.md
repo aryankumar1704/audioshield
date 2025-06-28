@@ -45,7 +45,7 @@ Stream .wav or byte audio packets to Pico W over Wi-Fi.
 
 - 8 kHz playback rate
 - Pico W operates as a Wi-Fi Access Point
-- Uses UDP protocol for fast low-latency transfer
+- Uses UDP protocol for fast,low-latency streaming
 
 ## Real-Time Plotting
 
