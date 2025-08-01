@@ -11,7 +11,7 @@
 float w[FILTER_ORDER] = {0};  // Adaptive filter weights
 float x[FILTER_ORDER] = {0};  // Delay line for noise reference
 
-// Introduce a small delay for better noise cancellation
+// Introduced a small delay for better noise cancellation
 #define DELAY_SAMPLES 5
 float delay_buffer[DELAY_SAMPLES] = {0};
 int delay_index = 0;
